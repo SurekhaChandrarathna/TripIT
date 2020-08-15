@@ -51,5 +51,21 @@
     <string name="ViewExperience2">Experiance : 4 years driving experiance and 2 years guide experiance</string>
     <string name="VeiwAmomunt2">Amount : Rs. 34000.00</string>
 
+    <!-- "Delete guide's with vehicles " Interface -->
+    <!-- "Guide 1: -->
+    <!-- "Guide 2: -->
+
+    <string name="ViewTyp3">Type</string>
+    <string name="ViewType4">Type</string>
+    <string name="ViewName3">Name</string>
+    <string name="ViewContactNumber3">Contact Number</string>
+    <string name="Veiwcontact4">contact4</string>
+    <string name="ViewAge3">Age</string>
+    <string name="ViewAge4">Age</string>
+    <string name="ViewExperience3">Experience</string>
+    <string name="ViewExperience4">Experience</string>
+    <string name="VeiwAmount3">Amount</string>
+    <string name="ViewAmount4">Amount</string>
+
 
 </resources>
