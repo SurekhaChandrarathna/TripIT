@@ -66,7 +66,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/ViewName1"
         tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="187dp" />
 
@@ -74,7 +74,7 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/ViewContactNumber1"
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="214dp" />
 
@@ -82,7 +82,7 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/ViewAge1"
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="246dp" />
 
@@ -90,7 +90,7 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/ViewExperience1"
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="277dp" />
 
@@ -98,7 +98,7 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/VeiwAmount1"
         tools:layout_editor_absoluteX="117dp"
         tools:layout_editor_absoluteY="308dp" />
 
@@ -106,7 +106,7 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/ViewType1"
         tools:layout_editor_absoluteX="108dp"
         tools:layout_editor_absoluteY="160dp" />
 

@@ -16,7 +16,7 @@
     <string name="ProfilePicTxt">Your profile picture  :</string>
     <string name="TypeUpdateTxt">Type :  </string>
     <string name="NameUpdateTxt">Name  : </string>
-    <string name="ContatNumUpdateTxt">Contact Number : </string>
+    <string name="ContatNumUpdateTxt" translatable="false">Contact Number : </string>
     <string name="AgeUpdate">Age : </string>
     <string name="ExperianceUpdate">Experience : </string>
     <string name="AmountUpdate">Amount per-day : </string>
@@ -32,6 +32,18 @@
     <string name="DeleteExperience">Experience  :</string>
     <string name="DeleteAmount">Amount per-day :</string>
     <string name="DeleteBtn">DELETE DETAILS</string>
+    <string name="ViewType1">Type</string>
+    <string name="ViewName1">Name</string>
+    <string name="ViewContactNumber1">Contact Number</string>
+    <string name="ViewAge1">Age</string>
+    <string name="ViewExperience1">Experience</string>
+    <string name="VeiwAmount1">Amount per-day</string>
+    <string name="ViewType2">Type</string>
+    <string name="ViewName2">Name</string>
+    <string name="ViewContact2">Contact Number</string>
+    <string name="ViewAge">Age</string>
+    <string name="ViewExperience2">Experiance</string>
+    <string name="VeiwAmomunt2">Amount</string>
 
 
 </resources>
