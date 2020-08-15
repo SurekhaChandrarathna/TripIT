@@ -80,4 +80,6 @@
         app:srcCompat="@drawable/man2"
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="53dp" />
+
+
 </android.support.constraint.ConstraintLayout>

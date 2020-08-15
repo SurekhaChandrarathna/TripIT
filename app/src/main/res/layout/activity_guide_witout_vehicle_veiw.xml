@@ -10,7 +10,7 @@
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ViewContact2"
+        android:text="@string/ViewContactNumber3"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="524dp" />
@@ -19,7 +19,7 @@
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ViewAge"
+        android:text="@string/ViewAge4"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="550dp" />
@@ -28,7 +28,7 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/VeiwAmomunt2"
+        android:text="@string/ViewAmount4"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="626dp" />
@@ -37,7 +37,7 @@
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ViewExperience2"
+        android:text="@string/ViewExperience4"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="578dp" />
@@ -46,7 +46,7 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ViewType2"
+        android:text="@string/ViewType4"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="469dp" />
@@ -71,7 +71,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ViewName1"
+        android:text="@string/ViewName3"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="169dp" />
@@ -80,7 +80,7 @@
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ViewContactNumber1"
+        android:text="@string/ViewContactNumber3"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="196dp" />
@@ -89,7 +89,7 @@
         android:id="@+id/textView14"
         android:layout_width="35dp"
         android:layout_height="20dp"
-        android:text="@string/ViewAge1"
+        android:text="@string/ViewAge3"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="226dp" />
@@ -98,7 +98,7 @@
         android:id="@+id/textView15"
         android:layout_width="344dp"
         android:layout_height="45dp"
-        android:text="@string/ViewExperience1"
+        android:text="@string/ViewExperience3"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="253dp" />
@@ -107,7 +107,7 @@
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/VeiwAmount1"
+        android:text="@string/VeiwAmount3"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="298dp" />
@@ -116,7 +116,7 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ViewType1"
+        android:text="@string/ViewTyp3"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="140dp" />
@@ -125,37 +125,9 @@
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ViewName2"
+        android:text="@string/ViewName4"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="498dp" />
-
-    <TableLayout
-        android:layout_width="354dp"
-        android:layout_height="339dp"
-        android:backgroundTint="@android:color/darker_gray"
-        android:backgroundTintMode="src_in"
-        android:longClickable="true"
-        android:nestedScrollingEnabled="true"
-        app:barrierDirection="left"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="330dp">
-
-        <TableRow
-            android:layout_width="8in"
-            android:layout_height="8in" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </TableLayout>
 
 </android.support.constraint.ConstraintLayout>

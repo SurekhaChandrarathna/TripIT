@@ -55,17 +55,19 @@
     <!-- "Guide 1: -->
     <!-- "Guide 2: -->
 
-    <string name="ViewTyp3">Type</string>
-    <string name="ViewType4">Type</string>
-    <string name="ViewName3">Name</string>
-    <string name="ViewContactNumber3">Contact Number</string>
-    <string name="Veiwcontact4">contact4</string>
-    <string name="ViewAge3">Age</string>
-    <string name="ViewAge4">Age</string>
-    <string name="ViewExperience3">Experience</string>
-    <string name="ViewExperience4">Experience</string>
-    <string name="VeiwAmount3">Amount</string>
-    <string name="ViewAmount4">Amount</string>
+    <string name="ViewTyp3">Type : Guide without vehicle</string>
+    <string name="ViewType4">Type: Guide without vehicle</string>
+    <string name="ViewName3">Name: Mr.Bandara</string>
+    <string name="ViewContactNumber3">Contact Number : o81-897876</string>
+    <string name="Veiwcontact4">contact4 : 987-898767</string>
+    <string name="ViewAge3">Age : 76</string>
+    <string name="ViewAge4">Age : 65</string>
+    <string name="ViewExperience3">Experience : 4 years driving experiance and 2 years guide experiance</string>
+    <string name="ViewExperience4">Experience : 4 years driving experiance and 2 years guide experiance</string>
+    <string name="VeiwAmount3">Amount : Rs . 5000.00</string>
+    <string name="ViewAmount4">Amount : Rs. 4000.00</string>
+    <string name="ViewName4">Name Mr.Rathnayake</string>
+    <string name="ViewContact4">Contact Number : 0812359019</string>
 
 
 </resources>
