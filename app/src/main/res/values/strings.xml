@@ -32,18 +32,24 @@
     <string name="DeleteExperience">Experience  :</string>
     <string name="DeleteAmount">Amount per-day :</string>
     <string name="DeleteBtn">DELETE DETAILS</string>
-    <string name="ViewType1">Type</string>
-    <string name="ViewName1">Name</string>
-    <string name="ViewContactNumber1">Contact Number</string>
-    <string name="ViewAge1">Age</string>
-    <string name="ViewExperience1">Experience</string>
-    <string name="VeiwAmount1">Amount per-day</string>
-    <string name="ViewType2">Type</string>
-    <string name="ViewName2">Name</string>
-    <string name="ViewContact2">Contact Number</string>
-    <string name="ViewAge">Age</string>
-    <string name="ViewExperience2">Experiance</string>
-    <string name="VeiwAmomunt2">Amount</string>
+
+    <!-- "Delete guide's with vehicles " Interface -->
+    <!-- "Guide 1: -->
+
+    <string name="ViewType1">Type : Guide with vehicle</string>
+    <string name="ViewName1">Name : Mr .  Bandara</string>
+    <string name="ViewContactNumber1">Contact Number : 090-567878</string>
+    <string name="ViewAge1">Age : 34</string>
+    <string name="ViewExperience1">Experience : 4 years driving experience and 2 years guide experience</string>
+    <string name="VeiwAmount1">Amount per-day : 3000.00</string>
+
+    <!-- "Guide 2: -->
+    <string name="ViewType2">Type : Guide with vehicle</string>
+    <string name="ViewName2">Name : Mr.Thilakarathne</string>
+    <string name="ViewContact2">Contact Number : 090-8909876</string>
+    <string name="ViewAge">Age : 54</string>
+    <string name="ViewExperience2">Experiance : 4 years driving experiance and 2 years guide experiance</string>
+    <string name="VeiwAmomunt2">Amount : Rs. 34000.00</string>
 
 
 </resources>
