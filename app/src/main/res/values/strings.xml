@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Guides</string>
+
+    <!-- "Add a guider" Interface -->
+    <string name="UploadPhotoTxt">Upload a photo  :</string>
+    <string name="NameTxt">Name  :</string>
+    <string name="AddBtn">ADD DETAILS</string>
+    <string name="ContactTxt">Contact number</string>
+
+    <!-- "Edit guide's details" Interface -->
+    <string name="ProfilePicTxt">Your profile picture  :</string>
+    <string name="TypeUpdateTxt">Type :  Guide with vehicle</string>
+    <string name="NameUpdateTxt">Name  : Mr.Bandara</string>
+    <string name="ContatNumUpdateTxt">Contact Number : 070- 98786756</string>
+    <string name="AgeUpdate">Age : 65</string>
+    <string name="ExperianceUpdate">Experience : 2 Years experience as a driver , 4 years experience as a guider</string>
+    <string name="AmountUpdate">Amount per-day : Rs.24.000 </string>
+    <string name="UpdateBtn">UPDATE DETAILS</string>
+
+
+</resources>
