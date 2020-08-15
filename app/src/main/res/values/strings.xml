@@ -1,21 +1,37 @@
 <resources>
+
+    <!-- "App Name"  -->
+
     <string name="app_name">Guides</string>
 
     <!-- "Add a guider" Interface -->
+
     <string name="UploadPhotoTxt">Upload a photo  :</string>
     <string name="NameTxt">Name  :</string>
     <string name="AddBtn">ADD DETAILS</string>
     <string name="ContactTxt">Contact number</string>
 
     <!-- "Edit guide's details" Interface -->
+
     <string name="ProfilePicTxt">Your profile picture  :</string>
-    <string name="TypeUpdateTxt">Type :  Guide with vehicle</string>
-    <string name="NameUpdateTxt">Name  : Mr.Bandara</string>
-    <string name="ContatNumUpdateTxt">Contact Number : 070- 98786756</string>
-    <string name="AgeUpdate">Age : 65</string>
-    <string name="ExperianceUpdate">Experience : 2 Years experience as a driver , 4 years experience as a guider</string>
-    <string name="AmountUpdate">Amount per-day : Rs.24.000 </string>
+    <string name="TypeUpdateTxt">Type :  </string>
+    <string name="NameUpdateTxt">Name  : </string>
+    <string name="ContatNumUpdateTxt">Contact Number : </string>
+    <string name="AgeUpdate">Age : </string>
+    <string name="ExperianceUpdate">Experience : </string>
+    <string name="AmountUpdate">Amount per-day : </string>
     <string name="UpdateBtn">UPDATE DETAILS</string>
+
+    <!-- "Delete guide's details" Interface -->
+
+    <string name="DeleteProfilePicTxt">Your proflie picture :</string>
+    <string name="DeleteTypeTxt">Type : </string>
+    <string name="DeleteNameTxt">Name : </string>
+    <string name="DeleteContactNumberTxt">Contact Number  : </string>
+    <string name="DeleteAge">Age : 56</string>
+    <string name="DeleteExperience">Experience  :</string>
+    <string name="DeleteAmount">Amount per-day :</string>
+    <string name="DeleteBtn">DELETE DETAILS</string>
 
 
 </resources>

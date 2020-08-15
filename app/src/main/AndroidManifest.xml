@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UpdateMemberDetails"></activity>
+        <activity android:name=".GuideWithVehicalView"></activity>
+        <activity android:name=".DeleteGuidesDetails" />
+        <activity android:name=".UpdateMemberDetails" />
         <activity android:name=".AddNewGuider" />
         <activity android:name=".MainActivity">
             <intent-filter>
