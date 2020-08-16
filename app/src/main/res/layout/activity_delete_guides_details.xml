@@ -52,8 +52,8 @@
         android:layout_height="wrap_content"
         android:text="@string/DeleteNameTxt"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="216dp" />
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="245dp" />
 
     <TextView
         android:id="@+id/textView9"
@@ -61,16 +61,17 @@
         android:layout_height="wrap_content"
         android:text="@string/DeleteTypeTxt"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="283dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_primary"
         android:text="@string/DeleteBtn"
         android:textSize="21sp"
-        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="573dp" />
 
     <ImageView

@@ -38,7 +38,7 @@
 
     <string name="ViewType1">Type : Guide with vehicle</string>
     <string name="ViewName1">Name : Mr .  Bandara</string>
-    <string name="ViewContactNumber1">Contact Number : 090-567878</string>
+    <string name="ViewContactNumber1">Contact Number</string>
     <string name="ViewAge1">Age : 34</string>
     <string name="ViewExperience1">Experience : 4 years driving experience and 2 years guide experience</string>
     <string name="VeiwAmount1">Amount per-day : 3000.00</string>
@@ -46,33 +46,58 @@
     <!-- "Guide 2: -->
     <string name="ViewType2">Type : Guide with vehicle</string>
     <string name="ViewName2">Name : Mr.Thilakarathne</string>
-    <string name="ViewContact2">Contact Number : 090-8909876</string>
+    <string name="ViewContact2">Contact Number :</string>
     <string name="ViewAge">Age : 54</string>
-    <string name="ViewExperience2">Experiance : 4 years driving experiance and 2 years guide experiance</string>
+    <string name="ViewExperience2">Experiance : </string>
     <string name="VeiwAmomunt2">Amount : Rs. 34000.00</string>
 
-    <!-- "Delete guide's with vehicles " Interface -->
-    <!-- "Guide 1: -->
-    <!-- "Guide 2: -->
+    <!-- "guide without vehicle" Interface -->
+    <!-- "Guide 1 and Guide 2: -->
+
 
     <string name="ViewTyp3">Type : Guide without vehicle</string>
     <string name="ViewType4">Type: Guide without vehicle</string>
     <string name="ViewName3">Name: Mr.Bandara</string>
-    <string name="ViewContactNumber3">Contact Number : o81-897876</string>
-    <string name="Veiwcontact4">contact4 : 987-898767</string>
+    <string name="ViewContactNumber3">Contact Number :</string>
+    <string name="Veiwcontact4">contact4 :</string>
     <string name="ViewAge3">Age : 76</string>
     <string name="ViewAge4">Age : 65</string>
-    <string name="ViewExperience3">Experience : 4 years driving experiance and 2 years guide experiance</string>
-    <string name="ViewExperience4">Experience : 4 years driving experiance and 2 years guide experiance</string>
+    <string name="ViewExperience3">Experience : </string>
+    <string name="ViewExperience4">Experience : </string>
     <string name="VeiwAmount3">Amount : Rs . 5000.00</string>
     <string name="ViewAmount4">Amount : Rs. 4000.00</string>
     <string name="ViewName4">Name Mr.Rathnayake</string>
     <string name="ViewContact4">Contact Number : 0812359019</string>
+
+    <!-- "Admin's home page" Interface -->
+
     <string name="AdminBtn1">View all guides details</string>
     <string name="AdminBtn2">Edit / Delete Guides details</string>
     <string name="AdminBtn3">Add New Details</string>
+
+    <!-- "Customer's home page" Interface -->
+
     <string name="CustomerHomeBtn1">Guide with vehical</string>
     <string name="customerBtn2">Guide without vehicle</string>
+
+    <!-- "Edit/Delete guide details" Interface -->
+    <!-- Edit buttons -->
+
+    <string name="editBtn1">EDIT</string>
+    <string name="editBtn2">EDIT</string>
+    <string name="editBtn3">EDIT</string>
+    <string name="editBtn4">EDIT</string>
+    <string name="editBtn5">EDIT</string>
+    <string name="EditTableButton">EDIT</string>
+    <!-- Delete Buttons-->
+
+    <string name="deleteBtn1">DELETE</string>
+    <string name="deleteBtn2">DELETE</string>
+    <string name="deleteBtn3">DELETE</string>
+    <string name="deleyeBtn4">DELETE</string>
+    <string name="deleteBtn5">DELETE</string>
+    <string name="DeleteTableBtn">DELETE</string>
+    <string name="deletebtn4">DELETE</string>
 
 
 </resources>

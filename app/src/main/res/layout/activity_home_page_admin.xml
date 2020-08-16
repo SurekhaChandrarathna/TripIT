@@ -10,10 +10,60 @@
         android:id="@+id/imageView6"
         android:layout_width="204dp"
         android:layout_height="220dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/guid"
-        tools:layout_editor_absoluteX="192dp" />
+        tools:layout_editor_absoluteX="164dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="416dp"
+        android:layout_height="74dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="66dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/guides"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="657dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="69dp"
+        android:layout_height="71dp"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="86dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/hotel"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="94dp"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/shops"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="84dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/places"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="659dp" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -25,11 +75,11 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="60dp"
-        android:layout_height="66dp"
+        android:layout_width="55dp"
+        android:layout_height="62dp"
         app:srcCompat="@drawable/home"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="583dp" />
+        tools:layout_editor_absoluteY="587dp" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -41,8 +91,8 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="69dp"
-        android:layout_height="53dp"
+        android:layout_width="61dp"
+        android:layout_height="45dp"
         app:srcCompat="@drawable/shops"
         tools:layout_editor_absoluteX="227dp"
         tools:layout_editor_absoluteY="598dp" />
@@ -52,8 +102,9 @@
         android:layout_width="77dp"
         android:layout_height="69dp"
         app:srcCompat="@drawable/places"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="581dp" />
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="582dp" />
+
 
     <Button
         android:id="@+id/button6"
@@ -62,8 +113,8 @@
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/AdminBtn1"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="246dp" />
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="273dp" />
 
     <Button
         android:id="@+id/button7"
@@ -72,8 +123,8 @@
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/AdminBtn2"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="298dp" />
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="335dp" />
 
     <Button
         android:id="@+id/button8"
@@ -82,8 +133,8 @@
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/AdminBtn3"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="358dp" />
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="398dp" />
 
 
 </android.support.constraint.ConstraintLayout>

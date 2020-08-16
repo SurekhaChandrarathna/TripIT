@@ -5,9 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UpdateDeletePage">
+
     <TableLayout
         android:layout_width="720dp"
         android:layout_height="408dp"
+        android:baselineAligned="true"
+        android:foregroundTint="@android:color/background_dark"
         tools:layout_editor_absoluteX="-2dp"
         tools:layout_editor_absoluteY="0dp">
 
@@ -38,7 +41,7 @@
                 android:background="#b0b0b0"
                 android:gravity="center"
                 android:padding="18dip"
-                android:text="Na"
+                android:text="Nam"
                 android:textColor="#000"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -51,7 +54,7 @@
                 android:background="#b0b0b0"
                 android:gravity="center"
                 android:padding="18dip"
-                android:text="Con."
+                android:text="Con.N"
                 android:textColor="#000"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -91,30 +94,6 @@
                 android:text="Amo"
                 android:textColor="#000"
                 android:textSize="18dp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Edit"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Delete"
-                android:textColor="#000"
-                android:textSize="18dp"
-
                 android:textStyle="bold" />
 
 
@@ -199,33 +178,10 @@
                 android:textColor="#000"
                 android:textSize="18dp"
                 android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Edit"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Delete"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
 
 
         </TableRow>
+
         <TableRow>
 
             <TextView
@@ -305,34 +261,10 @@
                 android:textColor="#000"
                 android:textSize="18dp"
                 android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Edit"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="45dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Delete"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
 
 
         </TableRow>
+
         <TableRow>
 
             <TextView
@@ -412,33 +344,10 @@
                 android:textColor="#000"
                 android:textSize="18dp"
                 android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Edit"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Delete"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
 
 
         </TableRow>
+
         <TableRow>
 
             <TextView
@@ -518,34 +427,10 @@
                 android:textColor="#000"
                 android:textSize="18dp"
                 android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Edit"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Delete"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
 
 
         </TableRow>
+
         <TableRow>
 
             <TextView
@@ -626,34 +511,9 @@
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Edit"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Delete"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
-
 
         </TableRow>
+
         <TableRow>
 
             <TextView
@@ -734,35 +594,122 @@
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Edit"
-                android:textColor="#000"
-                android:textSize="18dp"
 
-                android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Delete"
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
 
 
         </TableRow>
     </TableLayout>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/editBtn1"
+        tools:layout_editor_absoluteX="737dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="57dp"
+        android:layout_height="25dp"
+        android:text="@string/EditTableButton"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="751dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="86dp"
+        android:layout_height="26dp"
+        android:text="@string/DeleteTableBtn"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="845dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/deleteBtn1"
+        tools:layout_editor_absoluteX="843dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/editBtn2"
+        tools:layout_editor_absoluteX="737dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/deleteBtn2"
+        tools:layout_editor_absoluteX="843dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/editBtn3"
+        tools:layout_editor_absoluteX="737dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/deleteBtn3"
+        tools:layout_editor_absoluteX="843dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/editBtn4"
+        tools:layout_editor_absoluteX="737dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="@string/deletebtn4"
+        tools:layout_editor_absoluteX="843dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/editBtn5"
+        tools:layout_editor_absoluteX="737dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="@string/deleteBtn5"
+        tools:layout_editor_absoluteX="843dp"
+        tools:layout_editor_absoluteY="303dp" />
 
 
 </android.support.constraint.ConstraintLayout>
