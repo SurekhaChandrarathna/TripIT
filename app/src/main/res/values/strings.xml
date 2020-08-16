@@ -2,4 +2,47 @@
     <string name="app_name">Shops</string>
     <string name="btnShop">Shop Now</string>
     <string name="text2">Lets shopping now!</string>
+
+    <string name="ui2_topic">Available Categories</string>
+    <string name="viewb1">View</string>
+    <string name="viewb2">View</string>
+    <string name="viewb3">View</string>
+    <string name="viewb4">View</string>
+    <string name="cato">Category</string>
+    <string name="cat1_T">T-shirts</string>
+    <string name="cat2_B">Bags</string>
+    <string name="cat3_M">Mugs</string>
+    <string name="cat4_K">Key Tags</string>
+
+
+    <string name="topic_Tsh">T - Shirts</string>
+    <string name="t1b1_ui3">Order</string>
+    <string name="t2b2_ui3">Order</string>
+    <string name="t3b3_ui3">Order</string>
+    <string name="t1p_s">Price   Rs.1500</string>
+    <string name="t2_p_s">Price   Rs.1200</string>
+    <string name="t3p_s">Price   Rs.1800</string>
+    <string name="t1_size">S / M / L / XL</string>
+    <string name="t2_size">S / M / L / X / XL</string>
+    <string name="t3_size">S / M / L / X / XL</string>
+
+
+    <string name="Delete1">Delete</string>
+    <string name="Del2">Delete</string>
+    <string name="del3">Delete</string>
+    <string name="up1">Update</string>
+    <string name="up2">Update</string>
+    <string name="up3">Update</string>
+
+    <string name="ui5_topic">Add Items</string>
+    <string name="Label1_cat">Category</string>
+    <string name="label2_item">Item No.</string>
+    <string name="label3_im">Image</string>
+    <string name="label4_pr">Price</string>
+    <string name="label5_q">Quantity</string>
+    <string name="label6_si">Sizes</string>
+    <string name="ui5_butAdd">Add</string>
+    <string name="ui5_canBtn">Cancel</string>
+
+
 </resources>

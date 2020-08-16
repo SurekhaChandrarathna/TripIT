@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".shops_UI2_cat">
-
-
+    tools:context=".Shop_FifthUI_Order">
 
     <ImageButton
         android:id="@+id/placesbtn"
@@ -46,20 +44,6 @@
         app:srcCompat="@drawable/p12" />
 
     <ImageButton
-        android:id="@+id/guidesbtn"
-        android:layout_width="90dp"
-        android:layout_height="70dp"
-        android:backgroundTint="@color/blue"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.747"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/p11" />
-
-
-    <ImageButton
         android:id="@+id/homebtn"
         android:layout_width="93dp"
         android:layout_height="70dp"
@@ -72,169 +56,182 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/p8" />
 
-    <ImageView
-        android:id="@+id/ui2_imgBig"
-        android:layout_width="399dp"
-        android:layout_height="260dp"
-        app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
+    <ImageButton
+        android:id="@+id/guidesbtn"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/p11" />
+
+    <ImageView
+        android:id="@+id/imgUi5"
+        android:layout_width="413dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/pp3" />
+        app:srcCompat="@drawable/download" />
 
     <TableRow
         android:id="@+id/ui_backWh"
-        android:layout_width="337dp"
-        android:layout_height="65dp"
+        android:layout_width="244dp"
+        android:layout_height="60dp"
         android:background="@android:drawable/editbox_dropdown_light_frame"
         android:backgroundTint="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.173" >
+        app:layout_constraintVertical_bias="0.145">
 
         <TextView
-            android:id="@+id/ui2_topic"
-            android:layout_width="354dp"
-            android:layout_height="39dp"
+            android:id="@+id/ui5_topic"
+            android:layout_width="196dp"
+            android:layout_height="75dp"
             android:fontFamily="sans-serif-black"
-            android:text="@string/ui2_topic"
-            android:textAlignment="center"
+            android:text="@string/ui5_topic"
+            android:textAlignment="textEnd"
             android:textSize="30sp" />
     </TableRow>
 
-    <ImageView
-        android:id="@+id/tableUI2"
-        android:layout_width="315dp"
-        android:layout_height="335dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729"
-        app:srcCompat="@drawable/t1" />
 
-    <Button
-        android:id="@+id/viewb1"
-        android:layout_width="78dp"
-        android:layout_height="49dp"
-        android:backgroundTint="@color/colorPrimary"
+    <EditText
+        android:id="@+id/Label1_cat"
+        android:layout_width="341dp"
+        android:layout_height="71dp"
+        android:ems="10"
         android:fontFamily="sans-serif-black"
-        android:text="@string/viewb1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.795"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
-
-    <Button
-        android:id="@+id/viewb2"
-        android:layout_width="78dp"
-        android:layout_height="49dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="@string/viewb2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.795"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637" />
-
-    <Button
-        android:id="@+id/viewb3"
-        android:layout_width="78dp"
-        android:layout_height="49dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="@string/viewb3"
-        app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.795"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="78dp"
-        android:layout_height="49dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="@string/viewb4"
-        app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.795"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807" />
-
-    <TextView
-        android:id="@+id/cato"
-        android:layout_width="147dp"
-        android:layout_height="36dp"
-        android:fontFamily="sans-serif-black"
-        android:text="@string/cato"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.306"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.441" />
-
-    <TextView
-        android:id="@+id/cat1_T"
-        android:layout_width="142dp"
-        android:layout_height="47dp"
-        android:text="@string/cat1_T"
+        android:inputType="textPersonName"
+        android:text="@string/Label1_cat"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgUi5"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <EditText
+        android:id="@+id/label2_item"
+        android:layout_width="342dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="@string/label2_item"
+        app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <ImageView
+        android:id="@+id/uploadlabelim"
+        android:layout_width="102dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgUi5"
+        app:layout_constraintVertical_bias="0.545"
+        app:srcCompat="@android:drawable/ic_menu_upload" />
+
+    <TextView
+        android:id="@+id/label3_im"
+        android:layout_width="74dp"
+        android:layout_height="44dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/label3_im"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.567" />
 
-    <TextView
-        android:id="@+id/cat2_B"
-        android:layout_width="119dp"
-        android:layout_height="71dp"
-        android:text="@string/cat2_B"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
+    <EditText
+        android:id="@+id/label4_pr"
+        android:layout_width="346dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="@string/label4_pr"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.678" />
+        app:layout_constraintVertical_bias="0.634" />
 
-    <TextView
-        android:id="@+id/cat3_M"
-        android:layout_width="89dp"
-        android:layout_height="31dp"
-        android:text="@string/cat3_M"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
+    <EditText
+        android:id="@+id/label5_q"
+        android:layout_width="344dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="@string/label5_q"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
+        app:layout_constraintVertical_bias="0.711" />
 
-    <TextView
-        android:id="@+id/cat4_K"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cat4_K"
+    <EditText
+        android:id="@+id/label6_si"
+        android:layout_width="352dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="@string/label6_si"
+        app:layout_constraintBottom_toBottomOf="@+id/placesbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <Button
+        android:id="@+id/ui5_butAdd"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:backgroundTint="@color/b"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/ui5_butAdd"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/hotelsbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintHorizontal_bias="0.113"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/ui2_imgBig"
-        app:layout_constraintVertical_bias="0.801" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
 
+    <Button
+        android:id="@+id/ui5_canBtn"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/ui5_canBtn"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgUi5"
+        app:layout_constraintVertical_bias="0.886" />
 </androidx.constraintlayout.widget.ConstraintLayout>
