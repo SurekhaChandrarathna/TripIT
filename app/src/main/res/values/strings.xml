@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hotels</string>
+    <string name="kandybtn">Kandy</string>
+    <string name="colombtn">Colombo</string>
+    <string name="nuwaraEliyabtn">Nuwara Eliya</string>
+    <string name="kandycity">Kandy</string>
+    <string name="recgency">Earls Regency Kandy</string>
+    <string name="Queenbtn">Queens Hotel Kandy</string>
+    <string name="view1">View</string>
+    <string name="view2">View</string>
+    <string name="Grand">Grand Kanyan Hotel Kandy</string>
+    <string name="view3">View</string>
+    <string name="DesHotel">Earl\'s Regency the crown jewel of the Kandyan Kingdom. The grandeur of an ancient Citadel adorned with contemporary 5-star luxury. A landmark of impeccable taste and unique style where one can unwind and relax while experiencing all this world has to offer.</string>
+    <string name="viewPage">View</string>
+    <string name="Upadatebtn">Update</string>
+</resources>
