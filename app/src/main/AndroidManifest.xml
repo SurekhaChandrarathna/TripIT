@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Veiwalldetails"></activity>
+        <activity android:name=".UpdateDeletePage"></activity>
+        <activity android:name=".Veiwalldetails" />
         <activity android:name=".GuideWitoutVehicleVeiw" />
         <activity android:name=".GuideWithVehicalView" />
         <activity android:name=".DeleteGuidesDetails" />

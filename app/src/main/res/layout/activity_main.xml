@@ -6,26 +6,93 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_width="253dp"
+        android:layout_height="47dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="@string/customerBtn2"
+        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:clickable="true"
+        android:text="@string/CustomerHomeBtn1"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407" />
+        app:layout_constraintVertical_bias="0.527" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="204dp"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/guid"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="416dp"
+        android:layout_height="74dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="66dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/guides"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="657dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="69dp"
+        android:layout_height="71dp"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="86dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/hotel"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="94dp"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/shops"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="84dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/places"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="659dp" />
+
 
 </android.support.constraint.ConstraintLayout>

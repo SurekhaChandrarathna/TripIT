@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateDeletePage">
+    <TableLayout
+        android:layout_width="720dp"
+        android:layout_height="408dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <!-- first row of the table layout-->
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Type"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+            <!-- first element of the row that is the part of table but it is invisible-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Na"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- second element of the row that is shown in the screenshot-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Con."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="A"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Experie"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Amo"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Edit"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Delete"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Guide w..."
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="silva"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+            <!-- first element of the row that is the part of table but it is invisible-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="081-23.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- second element of the row that is shown in the screenshot-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="23"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="4 years.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="2500"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Edit"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Delete"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Guide w..."
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="vimala"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+            <!-- first element of the row that is the part of table but it is invisible-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="081-23.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- second element of the row that is shown in the screenshot-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="23"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="4 years.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="2500"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Edit"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Delete"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Guide w..."
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="kamala"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+            <!-- first element of the row that is the part of table but it is invisible-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="081-23.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- second element of the row that is shown in the screenshot-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="23"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="4 years.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="2500"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Edit"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Delete"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Guide w..."
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="nimala"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+            <!-- first element of the row that is the part of table but it is invisible-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="081-23.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- second element of the row that is shown in the screenshot-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="23"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="4 years.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="2500"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Edit"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Delete"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Guide w..."
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="mala"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+            <!-- first element of the row that is the part of table but it is invisible-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="081-23.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- second element of the row that is shown in the screenshot-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="23"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="4 years.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="2500"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Edit"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Delete"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Guide w..."
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="silva"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+            <!-- first element of the row that is the part of table but it is invisible-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="081-23.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <!-- second element of the row that is shown in the screenshot-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="23"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="4 years.."
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="2500"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Edit"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Delete"
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+        </TableRow>
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -68,6 +68,11 @@
     <string name="ViewAmount4">Amount : Rs. 4000.00</string>
     <string name="ViewName4">Name Mr.Rathnayake</string>
     <string name="ViewContact4">Contact Number : 0812359019</string>
+    <string name="AdminBtn1">View all guides details</string>
+    <string name="AdminBtn2">Edit / Delete Guides details</string>
+    <string name="AdminBtn3">Add New Details</string>
+    <string name="CustomerHomeBtn1">Guide with vehical</string>
+    <string name="customerBtn2">Guide without vehicle</string>
 
 
 </resources>
