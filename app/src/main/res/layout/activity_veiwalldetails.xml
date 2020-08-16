@@ -9,8 +9,9 @@
     <TableLayout
         android:layout_width="720dp"
         android:layout_height="408dp"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="0dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <!-- first row of the table layout-->
@@ -179,6 +180,7 @@
 
 
         </TableRow>
+
         <TableRow>
 
             <TextView
@@ -261,6 +263,7 @@
 
 
         </TableRow>
+
         <TableRow>
 
             <TextView
@@ -343,6 +346,7 @@
 
 
         </TableRow>
+
         <TableRow>
 
             <TextView
@@ -425,6 +429,7 @@
 
 
         </TableRow>
+
         <TableRow>
 
             <TextView
@@ -507,6 +512,7 @@
 
 
         </TableRow>
+
         <TableRow>
 
             <TextView

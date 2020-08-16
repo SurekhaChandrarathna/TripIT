@@ -7,12 +7,16 @@
     tools:context=".UpdateDeletePage">
 
     <TableLayout
-        android:layout_width="720dp"
-        android:layout_height="408dp"
+        android:layout_width="711dp"
+        android:layout_height="474dp"
         android:baselineAligned="true"
         android:foregroundTint="@android:color/background_dark"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="0dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087">
 
 
         <!-- first row of the table layout-->
@@ -100,6 +104,19 @@
         </TableRow>
 
         <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="Guide w..."
+                android:textColor="#000"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -499,35 +516,10 @@
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="2500"
-                android:textColor="#000"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-
 
         </TableRow>
 
         <TableRow>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#b0b0b0"
-                android:gravity="center"
-                android:padding="18dip"
-                android:text="Guide w..."
-                android:textColor="#000"
-                android:textSize="18dp"
-
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -594,8 +586,17 @@
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
-
-
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#b0b0b0"
+                android:gravity="center"
+                android:padding="18dip"
+                android:text="2500"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
 
         </TableRow>
@@ -607,8 +608,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/editBtn1"
-        tools:layout_editor_absoluteX="737dp"
-        tools:layout_editor_absoluteY="67dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
 
     <TextView
         android:id="@+id/textView24"
@@ -617,8 +622,12 @@
         android:text="@string/EditTableButton"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="751dp"
-        tools:layout_editor_absoluteY="9dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
 
     <TextView
         android:id="@+id/textView25"
@@ -627,8 +636,12 @@
         android:text="@string/DeleteTableBtn"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="845dp"
-        tools:layout_editor_absoluteY="8dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
 
     <Button
         android:id="@+id/button10"
@@ -636,8 +649,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/deleteBtn1"
-        tools:layout_editor_absoluteX="843dp"
-        tools:layout_editor_absoluteY="67dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
 
     <Button
         android:id="@+id/button11"
@@ -645,8 +662,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/editBtn2"
-        tools:layout_editor_absoluteX="737dp"
-        tools:layout_editor_absoluteY="122dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229" />
 
     <Button
         android:id="@+id/button12"
@@ -654,8 +675,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/deleteBtn2"
-        tools:layout_editor_absoluteX="843dp"
-        tools:layout_editor_absoluteY="122dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216" />
 
     <Button
         android:id="@+id/button13"
@@ -663,8 +688,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/editBtn3"
-        tools:layout_editor_absoluteX="737dp"
-        tools:layout_editor_absoluteY="179dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
 
     <Button
         android:id="@+id/button14"
@@ -672,8 +701,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="@string/deleteBtn3"
-        tools:layout_editor_absoluteX="843dp"
-        tools:layout_editor_absoluteY="179dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
 
     <Button
         android:id="@+id/button15"
@@ -681,8 +714,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/editBtn4"
-        tools:layout_editor_absoluteX="737dp"
-        tools:layout_editor_absoluteY="243dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
 
     <Button
         android:id="@+id/button16"
@@ -690,17 +727,26 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_blue_light"
         android:text="@string/deletebtn4"
-        tools:layout_editor_absoluteX="843dp"
-        tools:layout_editor_absoluteY="243dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
 
     <Button
         android:id="@+id/button17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="204dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:text="@string/editBtn5"
-        tools:layout_editor_absoluteX="737dp"
-        tools:layout_editor_absoluteY="303dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765" />
 
     <Button
         android:id="@+id/button18"
@@ -708,8 +754,12 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/holo_blue_light"
         android:text="@string/deleteBtn5"
-        tools:layout_editor_absoluteX="843dp"
-        tools:layout_editor_absoluteY="303dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
 
 
 </android.support.constraint.ConstraintLayout>
