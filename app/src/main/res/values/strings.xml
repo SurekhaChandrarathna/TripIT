@@ -49,6 +49,8 @@
     <string name="price">Rs.1500</string>
     <string name="quan">10</string>
     <string name="sizzz">S / M / X / XL</string>
+    <string name="cusName">Name</string>
+    <string name="address">Address</string>
 
 
 </resources>
