@@ -44,6 +44,11 @@
     <string name="ui5_butAdd">Add</string>
     <string name="ui5_canBtn">Cancel</string>
     <string name="topic_ui6">Update Item</string>
+    <string name="cate">T - Shirt</string>
+    <string name="itemNo">S001</string>
+    <string name="price">Rs.1500</string>
+    <string name="quan">10</string>
+    <string name="sizzz">S / M / X / XL</string>
 
 
 </resources>
