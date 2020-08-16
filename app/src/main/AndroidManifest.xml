@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Shop_FifthUI_Order"></activity>
+        <activity android:name=".Shops_6thUI"></activity>
+        <activity android:name=".Shop_FifthUI_Order" />
         <activity android:name=".Third_UI_Admin" />
         <activity android:name=".Shops_UI_3" />
         <activity android:name=".shops_UI2_cat" />
